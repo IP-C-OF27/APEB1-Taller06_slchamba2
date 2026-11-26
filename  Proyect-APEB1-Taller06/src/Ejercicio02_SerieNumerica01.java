@@ -22,7 +22,6 @@ public class Ejercicio02_SerieNumerica01 {
             System.out.println(numerador + "/" + denominador);
             numerador++;
             denominador++;
-
         } while (numerador <= 6);
 
     }
@@ -30,5 +29,12 @@ public class Ejercicio02_SerieNumerica01 {
 }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * run:
+1/10
+2/11
+3/12
+4/13
+5/14
+6/15
+BUILD SUCCESSFUL (total time: 0 seconds)
  */
