@@ -2,8 +2,15 @@
 import java.util.Scanner;
 
 /**
- * Ejercicio 01: "Texto del enunciado del ejercicio/problema...."
- * @author NombreAutor
+ * Ejercicio 03: "Serie numérica 2: Realizar un programa Java que permita 
+    presentar en pantalla la siguiente secuencia:
+	5/10
+	10/12
+	15/14
+	20/16
+	25/18
+	30/20"
+ * @author Steven Chamba
  * @version 1.0
  */
 
@@ -19,5 +26,12 @@ public class Ejercicio03_SerieNumerica02 {
 }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+5/10
+10/12
+15/14
+20/16
+25/18
+30/20
+BUILD SUCCESSFUL (total time: 0 seconds)
+
  */
