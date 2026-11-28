@@ -63,5 +63,48 @@ public class Ejercicio05_EquipoFutbol {
 
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * 
+Jugador 1
+Ingrese el nombre: Alexander Domingez
+Ingrese la posicion: Arquero
+Ingrese la edad: 32
+Ingrese la estatura: 1,95
+Desea ingresar otro jugador (si/no): si
+
+Jugador 2
+Ingrese el nombre: Xavier Arreaga
+Ingrese la posicion: Defensa
+Ingrese la edad: 24
+Ingrese la estatura: 1,85
+Desea ingresar otro jugador (si/no): si
+
+Jugador 3
+Ingrese el nombre: Moises Caicedo
+Ingrese la posicion: Mediocentro
+Ingrese la edad: 19
+Ingrese la estatura: 1,88
+Desea ingresar otro jugador (si/no): si
+
+Jugador 4
+Ingrese el nombre: Angel Mena
+Ingrese la posicion: Delantero
+Ingrese la edad: 27
+Ingrese la estatura: 1,93
+Desea ingresar otro jugador (si/no): si
+
+Jugador 5
+Ingrese el nombre: Michael Estrada 
+Ingrese la posicion: Delantero 
+Ingrese la edad: 27
+Ingrese la estatura: 1,93
+Desea ingresar otro jugador (si/no): no
+
+LISTADO DE JUGADORES
+1. Alexander Domingez -Arquero-, edad 32, estatura 1.952.
+2. Xavier Arreaga-Defensa-, edad 24, estatura 1.853. 
+3. Moises Caicedo -Mediocentro-, edad 19, estatura 1.884.
+4. Angel Mena -Delantero-, edad 27, estatura 1.935.
+5. Michael Estrada  -Delantero 27-, edad 27, estatura 1.93
+Promedio de edades: 25.8
+Promedio de estaturas: 1.908
  */

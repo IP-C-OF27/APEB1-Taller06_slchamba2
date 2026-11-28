@@ -15,31 +15,50 @@ public class Ejercicio01_AdivinaNumero {
         Scanner tcl = new Scanner(System.in);
         Random ale = new Random();
         int numAle = ale.nextInt(21);
-        int numAdv = 0, intentos = 3;
-        System.out.println("Pienso en Num(0-20), adivina: ");
-        while(intentos <= 3){
-            intentos--;            
+        int numAdv = 0;
+        int intentos = 0;
+        int maxIntentos;
+        System.out.print("Ingrese cuantos intentos desea: ");
+        maxIntentos = tcl.nextInt();
+        System.out.println("Piensa en un numero (0-20), adivina: ");
+        while (intentos < maxIntentos) {
             numAdv = tcl.nextInt();
-            if (numAdv == numAle){
+            intentos++;
+            if (numAdv == numAle) {
                 System.out.println("Bien, ADIVINASTE");
+            } else {
+                if (numAle > numAdv) {
+                    System.out.println("Mal, es mayor");
+                } else {
+                    System.out.println("Mal, es menor");
+                }
+            }
+            System.out.println("Te quedan "
+                    + (maxIntentos - intentos) + " intentos");
+            if (numAdv == numAle) {
                 break;
             }
-            else
-                if (numAle > numAdv){
-                    System.out.println("Mal, es mayor");
-                    
-                    System.out.println("Te queda "+ intentos + " intentos");
-                }
-                else {
-                    System.out.println("MAL, es menor");
-                    System.out.println("Te queda "+ intentos + " intentos");
-                }
         }
-        if (numAdv != numAle)
-                System.out.println("GAME OVER ");
+        if (numAdv != numAle) {
+            System.out.println("GAME OVER");
+            System.out.println("El numero era: " + numAle);
+        }
+        tcl.close();
         }   
 }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * Ingrese cuantos intentos desea: 3
+Piensa en un numero (0-20), adivina: 
+10
+Mal, es menor
+Te quedan 2 intentos
+5
+Mal, es menor
+Te quedan 1 intentos
+3
+Mal, es mayor
+Te quedan 0 intentos
+GAME OVER
+El numero era: 4
  */
